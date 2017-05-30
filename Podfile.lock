@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.4.0)
+  - SkyFloatingLabelTextField (2.0.1)
+  - SVProgressHUD (2.1.2)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - SkyFloatingLabelTextField (~> 2.0.0)
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+CHECKOUT OPTIONS:
+  SVProgressHUD:
+    :commit: f0c3a432cb3805a1f1f50cb27a646d98605215ad
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  SkyFloatingLabelTextField: 070e749632ffd608d6fd9db3fa488a822524997c
+  SVProgressHUD: d65371a8e4482380deddb9fe60e14e59ddb30eb3
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 8010da5a04c28eca4bb2061b47be6e030629fe47
+
+COCOAPODS: 1.2.0
