@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1499AF911EDD738700551B07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1499AF901EDD738700551B07 /* AppDelegate.swift */; };
-		1499AF961EDD738700551B07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1499AF941EDD738700551B07 /* Main.storyboard */; };
-		1499AF981EDD738700551B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1499AF971EDD738700551B07 /* Assets.xcassets */; };
-		1499AF9B1EDD738700551B07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1499AF991EDD738700551B07 /* LaunchScreen.storyboard */; };
 		1499AFA61EDD738800551B07 /* MyRescribeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1499AFA51EDD738800551B07 /* MyRescribeTests.swift */; };
 		1499AFB11EDD738800551B07 /* MyRescribeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1499AFB01EDD738800551B07 /* MyRescribeUITests.swift */; };
 		1499AFD31EDD770800551B07 /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1499AFCE1EDD770800551B07 /* NSDate.swift */; };
@@ -19,6 +16,9 @@
 		1499AFD61EDD770800551B07 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1499AFD11EDD770800551B07 /* UIView.swift */; };
 		1499AFD71EDD770800551B07 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1499AFD21EDD770800551B07 /* UIViewController.swift */; };
 		1499AFD91EDD789F00551B07 /* AlertMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1499AFD81EDD789F00551B07 /* AlertMessages.swift */; };
+		4D34F7131EDD886D00B7A4D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D34F70F1EDD886D00B7A4D0 /* LaunchScreen.storyboard */; };
+		4D34F7141EDD886D00B7A4D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D34F7111EDD886D00B7A4D0 /* Main.storyboard */; };
+		4D34F7161EDD897800B7A4D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D34F7151EDD897800B7A4D0 /* Assets.xcassets */; };
 		5E4D5689DA25B543008936EA /* Pods_MyRescribeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7EBDFD15102174AB79BAAD /* Pods_MyRescribeUITests.framework */; };
 		B52E0E0B96D78E107CFFFD0E /* Pods_MyRescribeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38871BB8A4CEEF1E5760A483 /* Pods_MyRescribeTests.framework */; };
 		ED81E4761E0016D5DC349F89 /* Pods_MyRescribe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201A5936E25B1F1604D049F3 /* Pods_MyRescribe.framework */; };
@@ -44,9 +44,6 @@
 /* Begin PBXFileReference section */
 		1499AF8D1EDD738700551B07 /* MyRescribe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRescribe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1499AF901EDD738700551B07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1499AF951EDD738700551B07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1499AF971EDD738700551B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
-		1499AF9A1EDD738700551B07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1499AF9C1EDD738700551B07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1499AFA11EDD738800551B07 /* MyRescribeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyRescribeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1499AFA51EDD738800551B07 /* MyRescribeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRescribeTests.swift; sourceTree = "<group>"; };
@@ -63,6 +60,9 @@
 		201A5936E25B1F1604D049F3 /* Pods_MyRescribe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRescribe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F074BA69E64207E13B516B /* Pods-MyRescribeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRescribeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRescribeUITests/Pods-MyRescribeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		38871BB8A4CEEF1E5760A483 /* Pods_MyRescribeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRescribeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D34F7101EDD886D00B7A4D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MyRescribe/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		4D34F7121EDD886D00B7A4D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MyRescribe/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		4D34F7151EDD897800B7A4D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MyRescribe/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		710B2675E568E53BCB22C9A2 /* Pods-MyRescribeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRescribeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRescribeTests/Pods-MyRescribeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F7EBDFD15102174AB79BAAD /* Pods_MyRescribeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRescribeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CE77B257A8B655FB729345 /* Pods-MyRescribe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRescribe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRescribe/Pods-MyRescribe.debug.xcconfig"; sourceTree = "<group>"; };
@@ -241,7 +241,7 @@
 		1499AFC81EDD746700551B07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1499AF971EDD738700551B07 /* Assets.xcassets */,
+				4D34F7151EDD897800B7A4D0 /* Assets.xcassets */,
 				1499AFC91EDD746700551B07 /* Font */,
 				1499AFCA1EDD746700551B07 /* Images */,
 			);
@@ -266,8 +266,8 @@
 		1499AFCB1EDD74A400551B07 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				1499AF991EDD738700551B07 /* LaunchScreen.storyboard */,
-				1499AF941EDD738700551B07 /* Main.storyboard */,
+				4D34F70F1EDD886D00B7A4D0 /* LaunchScreen.storyboard */,
+				4D34F7111EDD886D00B7A4D0 /* Main.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -427,9 +427,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1499AF9B1EDD738700551B07 /* LaunchScreen.storyboard in Resources */,
-				1499AF981EDD738700551B07 /* Assets.xcassets in Resources */,
-				1499AF961EDD738700551B07 /* Main.storyboard in Resources */,
+				4D34F7141EDD886D00B7A4D0 /* Main.storyboard in Resources */,
+				4D34F7161EDD897800B7A4D0 /* Assets.xcassets in Resources */,
+				4D34F7131EDD886D00B7A4D0 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,22 +634,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1499AF941EDD738700551B07 /* Main.storyboard */ = {
+		4D34F70F1EDD886D00B7A4D0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1499AF951EDD738700551B07 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		1499AF991EDD738700551B07 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1499AF9A1EDD738700551B07 /* Base */,
+				4D34F7101EDD886D00B7A4D0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ..;
+			sourceTree = "<group>";
+		};
+		4D34F7111EDD886D00B7A4D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D34F7121EDD886D00B7A4D0 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
